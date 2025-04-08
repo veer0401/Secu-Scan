@@ -35,11 +35,11 @@
 
 | Component       | Description                                  |
 |----------------|----------------------------------------------|
-| Language        | Java / Kotlin                                |
+| Language        | Java                                         |
 | Architecture    | MVVM (Model-View-ViewModel)                  |
 | UI Framework    | Material Design                              |
 | APIs Used       | Android PackageManager, ConnectivityManager |
-| Tools           | Android Studio, Android SDK, Firebase (optional), VirusTotal API (optional) |
+| Tools           | Android Studio, Android SDK, VirusTotal API, Kapersky API |
 
 ---
 
@@ -47,13 +47,13 @@
 
 | Feature                  | Screenshot                         |
 |--------------------------|-------------------------------------|
-| Dashboard                | ![Dashboard](./screenshots/Dashboard.jpg) |
-| IP Finder & Network Info | ![Find IP](./screenshots/Find%20IP.jpg) |
-| Device Info              | ![Device Info](./screenshots/Device%20Info.jpg) |
-| Encryption Status        | ![Encryption](./screenshots/Encryption.jpg) |
-| Network Usage            | ![Network Usage](./screenshots/Network%20Usage.jpg) |
-| Permission List          | ![Permissions](./screenshots/Permision%20List.jpg) |
-| Permission Check Detail  | ![Permission Check](./screenshots/Permission%20Check.jpg) |
+| Dashboard                | ![Dashboard](./Screenshots/Dashboard.jpg) |
+| IP Finder & Network Info | ![Find IP](./Screenshots/Find%20IP.jpg) |
+| Device Info              | ![Device Info](./Screenshots/Device%20Info.jpg) |
+| Encryption Status        | ![Encryption](./Screenshots/Encryption.jpg) |
+| Network Usage            | ![Network Usage](./Screenshots/Network%20Usage.jpg) |
+| Permission List          | ![Permissions](./Screenshots/Permision%20List.jpg) |
+| Permission Check Detail  | ![Permission Check](./Screenshots/Permission%20Check.jpg) |
 
 > Store all images in a `screenshots/` folder inside the root project directory.
 
