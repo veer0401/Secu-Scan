@@ -59,16 +59,9 @@
 
 ---
 
-## 📁 Project Structure
-
-SecuScan/ ├── activities/ │ ├── DashboardActivity.java │ ├── ScanActivity.java │ ├── LoginActivity.java │ └── SettingsActivity.java ├── viewmodels/ ├── repositories/ ├── managers/ ├── services/ ├── fragments/ ├── utils/ ├── res/ │ ├── layout/ │ ├── drawable/ │ └── values/ ├── AndroidManifest.xml └── README.md
-
-
----
 
 ## 🚀 Getting Started
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/SecuScan.git
-```
