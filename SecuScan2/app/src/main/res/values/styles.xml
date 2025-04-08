@@ -1,0 +1,61 @@
+<resources>
+    <!-- Base style for modern buttons -->
+    <style name="ModernButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- TextView styles for labels -->
+    <style name="LabelStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/label_text</item>
+    </style>
+
+    <!-- TextView styles for values -->
+    <style name="ValueStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/value_text</item>
+        <item name="android:fontFamily">@font/roboto_mono</item>
+    </style>
+
+    <!-- TextView style for normal text -->
+    <style name="TextViewStyleNormal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:fontFamily">@font/roboto_mono</item>
+    </style>
+
+    <!-- EditText style -->
+    <style name="EditTextStyleModern">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:fontFamily">@font/roboto_mono</item>
+        <item name="android:background">@drawable/rounded_edittext_background</item>
+    </style>
+
+    <!-- ImageView style -->
+    <style name="ImageViewStyleNormal">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/rounded_image_border</item>
+    </style>
+
+    <!-- Base application theme. Use AppCompat and Material 2 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

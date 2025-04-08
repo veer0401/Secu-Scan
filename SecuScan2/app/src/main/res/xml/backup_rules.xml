@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <allow backup="true" />
+    <exclude name="*.log" />
+    <exclude name="*.tmp" />
+</resources>
